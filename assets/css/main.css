@@ -101,6 +101,9 @@ input, select, textarea {
 
 	h1 {
 		text-transform: lowercase;
+		font-size: 1.6em;
+		letter-spacing: -1px;
+		margin: 4px 0 2.25em 0;
 	}
 
 	h2 {
