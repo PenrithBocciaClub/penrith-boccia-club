@@ -100,7 +100,10 @@ input, select, textarea {
 	}
 
 	h1 {
-		
+	
+		font-size: 1.8em;
+		letter-spacing: -1px;
+		margin-bottom: 1em;
 		
 	}
 
