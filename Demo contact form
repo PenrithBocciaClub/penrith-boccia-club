@@ -38,22 +38,11 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 	}
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Bootstrap contact form with PHP example by BootstrapBay.com.">
-    <meta name="author" content="BootstrapBay.com">
-    <title>Bootstrap Contact Form With PHP Example</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  </head>
-  <body>
+  
   	<div class="container">
   		<div class="row">
   			<div class="col-md-6 col-md-offset-3">
-  				<h1 class="page-header text-center">Contact Form Example</h1>
+  				<h1 class="page-header text-center">Contact Penrith Boccia Club</h1>
 				<form class="form-horizontal" role="form" method="post" action="index.php">
 					<div class="form-group">
 						<label for="name" class="col-sm-2 control-label">Name</label>
@@ -95,9 +84,3 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 					</div>
 				</form> 
 			</div>
-		</div>
-	</div>   
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-  </body>
-</html>
