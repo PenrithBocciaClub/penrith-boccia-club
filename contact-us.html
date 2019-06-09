@@ -51,51 +51,63 @@
                 <p></p>  
 		     
 	  
-  	<div class="container">
-  		<div class="row">
-  			<div class="col-md-6 col-md-offset-3">
-  			<!--	<h1 class="page-header text-center">Contact Penrith Boccia Club</h1> -->
-				<form class="form-horizontal" role="form" method="post" action="action_page.php">
-					<div class="form-group">
-						<label for="name" class="col-8 control-label">Name</label>
-						<div class="col-sm-10">
-							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name"/>
-						
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="email" class="col-8 control-label">Email</label>
-						<div class="col-sm-10">
-							<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com"/>
-							
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="message" class="col-8 control-label">Message</label>
-						<div class="col-sm-10">
-							<textarea class="form-control" rows="4" name="message"/>
-							
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
-						<div class="col-sm-10">
-							<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-							
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-10 col-sm-offset-2">
-							<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-10 col-sm-offset-2">
-							
-						</div>
-					</div>
-				</form> 
+  	<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+<label for="phone">Phone Number</label>
+    <input type="text" id="lname" name="phone" placeholder="Your phone  number..">
+   
+
+    <label for="message">Message</label>
+				
 		      
               </section>
             </div>
